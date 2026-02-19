@@ -1,13 +1,13 @@
-# Node modules
+# Node.js dependencies
 node_modules/
 
-# Environment variables
+# Environment variables (contains DB password)
 .env
 
 # Logs
 *.log
 
-# OS-specific files
+# OS-specific junk files
 .DS_Store
 Thumbs.db
 
