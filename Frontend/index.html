@@ -1,32 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Student Registration</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="form-container">
-    <h2>Student Registration</h2>
-    <form action="http://localhost:3000/register" method="POST">
-      <label>Full Name:</label>
-      <input type="text" name="fullname" required>
-
-      <label>Roll Number:</label>
-      <input type="text" name="roll" required>
-
-      <label>Email:</label>
-      <input type="email" name="email" required>
-
-      <label>Password:</label>
-      <input type="password" name="password" required>
-
-      <label>Address:</label>
-      <textarea name="address" required></textarea>
-
-      <button type="submit">Register</button>
-    </form>
-  </div>
+  <h1>Student Registration Form</h1>
+  <form action="http://localhost:3000/register" method="POST">
+    <input type="text" name="fullname" placeholder="Full Name" required><br>
+    <input type="text" name="roll" placeholder="Roll Number" required><br>
+    <input type="email" name="email" placeholder="Email" required><br>
+    <input type="password" name="password" placeholder="Password" required><br>
+    <textarea name="address" placeholder="Address" required></textarea><br>
+    <button type="submit">Register</button>
+  </form>
 </body>
 </html>

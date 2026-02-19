@@ -1,15 +1,12 @@
-# Node.js dependencies
+# Ignore node modules
 node_modules/
 
-# Environment variables (contains DB password)
+# Ignore environment variables
 .env
 
-# Logs
+# Ignore logs
 *.log
 
-# OS-specific junk files
+# Ignore OS-specific files
 .DS_Store
 Thumbs.db
-
-# Optional: lock file if you don’t want to push it
-package-lock.json
